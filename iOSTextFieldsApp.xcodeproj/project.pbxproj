@@ -13,6 +13,8 @@
 		619AB4D52219E0CB00225CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619AB4D42219E0CB00225CDF /* Assets.xcassets */; };
 		619AB4D82219E0CB00225CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619AB4D62219E0CB00225CDF /* LaunchScreen.storyboard */; };
 		619AB4E32219E0CB00225CDF /* iOSTextFieldsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619AB4E22219E0CB00225CDF /* iOSTextFieldsAppTests.swift */; };
+		619AB4F62219E54800225CDF /* ZipCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619AB4F52219E54800225CDF /* ZipCodeTextFieldDelegate.swift */; };
+		619AB4F82219E57000225CDF /* CashTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619AB4F72219E57000225CDF /* CashTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		619AB4DE2219E0CB00225CDF /* iOSTextFieldsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTextFieldsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		619AB4E22219E0CB00225CDF /* iOSTextFieldsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTextFieldsAppTests.swift; sourceTree = "<group>"; };
 		619AB4E42219E0CB00225CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619AB4F52219E54800225CDF /* ZipCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
+		619AB4F72219E57000225CDF /* CashTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				619AB4CD2219E0CB00225CDF /* AppDelegate.swift */,
 				619AB4CF2219E0CB00225CDF /* ViewController.swift */,
+				619AB4F22219E4E700225CDF /* Text Field Delegates */,
 				619AB4D12219E0CB00225CDF /* Main.storyboard */,
 				619AB4D42219E0CB00225CDF /* Assets.xcassets */,
 				619AB4D62219E0CB00225CDF /* LaunchScreen.storyboard */,
@@ -94,6 +99,16 @@
 				619AB4E42219E0CB00225CDF /* Info.plist */,
 			);
 			path = iOSTextFieldsAppTests;
+			sourceTree = "<group>";
+		};
+		619AB4F22219E4E700225CDF /* Text Field Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				619AB4F52219E54800225CDF /* ZipCodeTextFieldDelegate.swift */,
+				619AB4F72219E57000225CDF /* CashTextFieldDelegate.swift */,
+			);
+			name = "Text Field Delegates";
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				619AB4D02219E0CB00225CDF /* ViewController.swift in Sources */,
+				619AB4F82219E57000225CDF /* CashTextFieldDelegate.swift in Sources */,
+				619AB4F62219E54800225CDF /* ZipCodeTextFieldDelegate.swift in Sources */,
 				619AB4CE2219E0CB00225CDF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
